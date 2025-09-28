@@ -1,0 +1,135 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <RootNamespace>SBIT_2A_Barber_Sam_Leonard_Project</RootNamespace>
+    <StartupObject>Sub Main</StartupObject>
+    <UseWindowsForms>true</UseWindowsForms>
+    <MyType>WindowsForms</MyType>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Windows.Forms" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="My Project\Application.Designer.vb">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Update="My Project\Resources.Designer.vb">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Week1-Components\week1-components.vb" />
+    <Compile Update="week2-components\interfaces.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="week2-components\polymorphism.vb" />
+    <Compile Update="week2-components\inheritance.vb" />
+    <Compile Update="Week1Topic.vb" />
+    <Compile Update="week3-components\bpictures.vb" />
+    <Compile Update="week3-components\building.vb" />
+    <Compile Update="week3-components\fdw.vb" />
+    <Compile Update="week3-components\properties.vb" />
+    <Compile Update="week3-components\sew.vb" />
+    <Compile Update="week3-components\toolbox.vb" />
+    <Compile Update="week3-components\newproj.vb" />
+    <Compile Update="week3-components\startp.vb" />
+    <Compile Update="week3-components\poppl - Copy.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="week3-components\explore.vb" />
+    <Compile Update="week3-components\tpl.vb" />
+    <Compile Update="week3-components\wpm.vb" />
+    <Compile Update="week3-components\programmingl.vb" />
+    <Compile Update="week3-components\computerprog.vb" />
+    <Compile Update="week3-components\week3-components.vb" />
+    <Compile Update="week4-components\ad2.vb" />
+    <Compile Update="week4-components\ad1.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="week4-components\stip - Copy.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="week4-components\ad.vb" />
+    <Compile Update="week4-components\sti.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="week4-components\fp2.vb" />
+    <Compile Update="week4-components\fp.vb" />
+    <Compile Update="week4-components\af.vb" />
+    <Compile Update="week4-components\bc.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="week4-components\ce.vb" />
+    <Compile Update="week4-components\cm.vb" />
+    <Compile Update="week4-components\cp.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="week4-components\week4-components.vb" />
+    <Compile Update="week4-components\vb.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="week5-components\aof.vb" />
+    <Compile Update="week5-components\calculator.vb" />
+    <Compile Update="week5-components\op.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="week5-components\ao.vb" />
+    <Compile Update="week5-components\cdt.vb" />
+    <Compile Update="week5-components\svc.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="week5-components\dc.vb" />
+    <Compile Update="week5-components\dv.vb" />
+    <Compile Update="week5-components\nrvc.vb" />
+    <Compile Update="week5-components\tod.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="week6-components\week6-components.vb" />
+    <Compile Update="week7-components\threedcode.vb" />
+    <Compile Update="week7-components\week7-components.vb" />
+    <Compile Update="Week8Topic.vb" />
+    <Compile Update="Week7Topic.vb" />
+    <Compile Update="Week6Topic.vb" />
+    <Compile Update="Week5Topic.vb" />
+    <Compile Update="Week4Topic.vb" />
+    <Compile Update="Week3Topic.vb" />
+    <Compile Update="Week2Topic.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="week2-components\encapsulation.vb" />
+    <Compile Update="week2-components\classandobject.vb" />
+    <Compile Update="week5-components\week5-components.vb" />
+    <Compile Update="week8-components\week8-components.vb" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="My Project\Resources.resx">
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="My Project\NewFolder1\" />
+    <Folder Include="My Project\NewFolder2\" />
+    <Folder Include="My Project\NewFolder3\" />
+    <Folder Include="My Project\NewFolder\" />
+  </ItemGroup>
+
+</Project>
