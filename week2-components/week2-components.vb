@@ -39,7 +39,7 @@
     End Sub
 
     Private Sub Button10_Click(sender As Object, e As EventArgs) Handles Button10.Click
-        RaiseEvent showgifclicked(New inheritancecoe())
+        RaiseEvent showgifclicked(New framework())
     End Sub
 
     Private Sub Button11_Click(sender As Object, e As EventArgs) Handles Button11.Click

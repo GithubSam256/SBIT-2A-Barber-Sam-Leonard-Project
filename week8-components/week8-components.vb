@@ -10,11 +10,11 @@
     End Sub
 
     Private Sub Button4_Click(sender As Object, e As EventArgs) Handles Button4.Click
-        RaiseEvent showgifclicked(New vbncc)
+        RaiseEvent showgifclicked(New frm)
     End Sub
 
     Private Sub Button6_Click(sender As Object, e As EventArgs) Handles Button6.Click
-        RaiseEvent showgifclicked(New pcc)
+        RaiseEvent showgifclicked(New frmw)
     End Sub
 
     Private Sub Button9_Click(sender As Object, e As EventArgs) Handles Button9.Click
@@ -34,10 +34,14 @@
     End Sub
 
     Private Sub Button3_Click(sender As Object, e As EventArgs) Handles Button3.Click
-        RaiseEvent showgifclicked(New poc)
+        RaiseEvent showgifclicked(New cnf)
     End Sub
 
     Private Sub Button5_Click(sender As Object, e As EventArgs) Handles Button5.Click
         RaiseEvent showgifclicked(New msc)
+    End Sub
+
+    Private Sub Button7_Click(sender As Object, e As EventArgs) Handles Button7.Click
+        RaiseEvent showgifclicked(New codeexamp)
     End Sub
 End Class

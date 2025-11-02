@@ -1,3 +1,3 @@
-﻿Public Class poc
+﻿Public Class cnf
 
 End Class

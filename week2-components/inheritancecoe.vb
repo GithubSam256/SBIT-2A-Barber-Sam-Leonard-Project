@@ -1,4 +1,4 @@
-﻿Public Class inheritancecoe
+﻿Public Class framework
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
         Dim input As String = TextBox1.Text.Trim().ToLower()
         Dim chosenAnimal As Animal = Nothing

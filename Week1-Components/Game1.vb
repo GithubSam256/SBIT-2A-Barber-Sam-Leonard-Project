@@ -328,4 +328,5 @@
     Private Sub DevilButtonRight3_Click(sender As Object, e As EventArgs) Handles DevilButtonRight3.Click
         IsBoatFull(DevilButtonRight3)
     End Sub
+
 End Class

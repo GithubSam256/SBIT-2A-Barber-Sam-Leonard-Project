@@ -33,6 +33,7 @@ Partial Class week8_components
         Button15 = New Button()
         Button3 = New Button()
         Button5 = New Button()
+        Button7 = New Button()
         FlowLayoutPanel1.SuspendLayout()
         SuspendLayout()
         ' 
@@ -50,6 +51,7 @@ Partial Class week8_components
         FlowLayoutPanel1.Controls.Add(Button15)
         FlowLayoutPanel1.Controls.Add(Button3)
         FlowLayoutPanel1.Controls.Add(Button5)
+        FlowLayoutPanel1.Controls.Add(Button7)
         FlowLayoutPanel1.Dock = DockStyle.Fill
         FlowLayoutPanel1.Location = New Point(0, 0)
         FlowLayoutPanel1.Name = "FlowLayoutPanel1"
@@ -147,6 +149,15 @@ Partial Class week8_components
         Button5.Text = "Methods of the SaveFileDialog Control"
         Button5.UseVisualStyleBackColor = True
         ' 
+        ' Button7
+        ' 
+        Button7.Location = New Point(3, 533)
+        Button7.Name = "Button7"
+        Button7.Size = New Size(329, 47)
+        Button7.TabIndex = 28
+        Button7.Text = "Example"
+        Button7.UseVisualStyleBackColor = True
+        ' 
         ' week8_components
         ' 
         AutoScaleDimensions = New SizeF(7F, 15F)
@@ -170,5 +181,6 @@ Partial Class week8_components
     Friend WithEvents Button5 As Button
     Friend WithEvents Button1 As Button
     Friend WithEvents Button2 As Button
+    Friend WithEvents Button7 As Button
 
 End Class

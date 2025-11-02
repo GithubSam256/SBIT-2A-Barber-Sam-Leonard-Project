@@ -87,7 +87,7 @@ Partial Class Game1
         PriestButtonRight2.BackgroundImage = CType(resources.GetObject("PriestButtonRight2.BackgroundImage"), Image)
         PriestButtonRight2.Font = New Font("Segoe UI", 9.75F)
         PriestButtonRight2.ForeColor = Color.White
-        PriestButtonRight2.Location = New Point(70, 125)
+        PriestButtonRight2.Location = New Point(70, 126)
         PriestButtonRight2.Margin = New Padding(3, 2, 3, 2)
         PriestButtonRight2.Name = "PriestButtonRight2"
         PriestButtonRight2.Size = New Size(70, 60)

@@ -43,7 +43,7 @@
     End Sub
 
     Private Sub Button13_Click(sender As Object, e As EventArgs) Handles Button13.Click
-        RaiseEvent showgifclicked(New sew)
+        RaiseEvent showgifclicked(New framee)
     End Sub
 
     Private Sub Button14_Click(sender As Object, e As EventArgs) Handles Button14.Click

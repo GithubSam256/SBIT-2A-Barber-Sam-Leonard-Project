@@ -36,13 +36,13 @@ Public Class FinalContainer
         Card11.UpdateInfo("OOP",
                  "Building graphical user interfaces using forms and controls in OOP style.",
                  "Final Term",
-                 "Week 11",
+                 "Week 11 12",
                  "C:\Users\Administrator\Downloads\images\week-image.jpg")
 
         Card12.UpdateInfo("OOP",
                  "Implementing database connections and CRUD operations with OOP practices.",
                  "Final Term",
-                 "Week 12",
+                 "Week 13",
                  "C:\Users\Administrator\Downloads\images\week-image.jpg")
 
     End Sub
@@ -51,7 +51,11 @@ Public Class FinalContainer
     Private Sub AssignForms()
         Card7.AssignTopic(GetType(Week7Topic))
         Card8.AssignTopic(GetType(Week8Topic))
+        Card10.AssignTopic(GetType(Week10_Topic))
+        Card11.AssignTopic(GetType(Week11_12Topic))
     End Sub
 
+    Private Sub PictureBox1_Click(sender As Object, e As EventArgs) Handles PictureBox1.Click
 
+    End Sub
 End Class

@@ -36,6 +36,7 @@ Partial Class encapscode
         ' RichTextBox1
         ' 
         RichTextBox1.Font = New Font("Segoe Print", 11.25F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
+        RichTextBox1.ForeColor = SystemColors.Info
         RichTextBox1.Location = New Point(17, 77)
         RichTextBox1.Name = "RichTextBox1"
         RichTextBox1.Size = New Size(373, 382)

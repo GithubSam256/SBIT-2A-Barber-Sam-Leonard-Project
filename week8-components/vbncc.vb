@@ -1,3 +1,3 @@
-﻿Public Class vbncc
+﻿Public Class frm
 
 End Class
